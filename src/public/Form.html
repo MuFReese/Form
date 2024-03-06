@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+</head>
+<link rel="stylesheet" href="style/styleNull.css">
+<link rel="stylesheet" href="style/HeaderAndNav.css">
+<link rel="stylesheet" href="style/Form.css">
+<script src="../main.js" defer></script>
+<body>
+  <header class="headerStyle">
+    <h1 class="labelStyle">Label</h1>
+    <ul class="listStyle">
+      <button class="buttonStyle"><a href="http://127.0.0.1:5500/src/public/BaseInfo.html">Base infotmation</a></button>
+      <button class="buttonStyle"><a href="http://127.0.0.1:5500/src/public/Form.html">Form</a></button>
+      <button class="buttonStyle"><a href="">Search users</a></button>
+    </ul>
+  </header>
+  <div class="navAndMain">
+    <nav class="navStyle">Navigation menu</nav>
+    <main class="mainStyle">
+      <h2 class="h2Form">Заполните форму</h2>
+      <div action="" autocomplete="on" class="formPerson" >
+        <input type="text" class="name" placeholder="Введите имя" id="name">
+        <input type="text" class="lastName" placeholder="Введите фамилию" id="lastName">
+        <input type="text" class="number" placeholder="Введите телефон" id="number">
+        <input type="text" class="email" placeholder="Введите почту" id="email">
+        <button class="buttonForm" id="buttonForm">Отправить данные</button>
+      </div>
+    </main>
+</body>
+</html>
